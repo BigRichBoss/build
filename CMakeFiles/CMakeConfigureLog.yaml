@@ -1,0 +1,416 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/10/3 18:49:40。
+      节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.88
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/3.27.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/10/3 18:49:41。
+      节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.62
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-nmyu0n"
+      binary: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-nmyu0n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-nmyu0n'
+        
+        Run Build Command(s): "D:/Install_Road/VSInstall Road/IDE/MSBuild/15.0/Bin/MSBuild.exe" cmTC_d27bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/10/3 18:49:42。
+        节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmyu0n\\cmTC_d27bf.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d27bf.dir\\Debug\\”。
+          正在创建目录“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmyu0n\\Debug\\”。
+          正在创建目录“cmTC_d27bf.dir\\Debug\\cmTC_d27bf.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d27bf.dir\\Debug\\cmTC_d27bf.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d27bf.dir\\Debug\\\\" /Fd"cmTC_d27bf.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d27bf.dir\\Debug\\\\" /Fd"cmTC_d27bf.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmyu0n\\Debug\\cmTC_d27bf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-nmyu0n/Debug/cmTC_d27bf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-nmyu0n/Debug/cmTC_d27bf.lib" /MACHINE:X64  /machine:x64 cmTC_d27bf.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d27bf.vcxproj -> D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmyu0n\\Debug\\cmTC_d27bf.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d27bf.dir\\Debug\\cmTC_d27bf.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d27bf.dir\\Debug\\cmTC_d27bf.tlog\\cmTC_d27bf.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nmyu0n\\cmTC_d27bf.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.75
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-zl5g4n"
+      binary: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-zl5g4n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-zl5g4n'
+        
+        Run Build Command(s): "D:/Install_Road/VSInstall Road/IDE/MSBuild/15.0/Bin/MSBuild.exe" cmTC_5efa4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/10/3 18:49:43。
+        节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl5g4n\\cmTC_5efa4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5efa4.dir\\Debug\\”。
+          正在创建目录“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl5g4n\\Debug\\”。
+          正在创建目录“cmTC_5efa4.dir\\Debug\\cmTC_5efa4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5efa4.dir\\Debug\\cmTC_5efa4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5efa4.dir\\Debug\\\\" /Fd"cmTC_5efa4.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5efa4.dir\\Debug\\\\" /Fd"cmTC_5efa4.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl5g4n\\Debug\\cmTC_5efa4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-zl5g4n/Debug/cmTC_5efa4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-zl5g4n/Debug/cmTC_5efa4.lib" /MACHINE:X64  /machine:x64 cmTC_5efa4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5efa4.vcxproj -> D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl5g4n\\Debug\\cmTC_5efa4.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5efa4.dir\\Debug\\cmTC_5efa4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5efa4.dir\\Debug\\cmTC_5efa4.tlog\\cmTC_5efa4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl5g4n\\cmTC_5efa4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-pta8lw"
+      binary: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-pta8lw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/code/vtk9.1/lib/cmake/vtk-9.1/patches/99;D:/code/vtk9.1/lib/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-pta8lw'
+        
+        Run Build Command(s): "D:/Install_Road/VSInstall Road/IDE/MSBuild/15.0/Bin/MSBuild.exe" cmTC_eec3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/10/3 18:49:44。
+        节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\cmTC_eec3b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_eec3b.dir\\Debug\\”。
+          正在创建目录“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\Debug\\”。
+          正在创建目录“cmTC_eec3b.dir\\Debug\\cmTC_eec3b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_eec3b.dir\\Debug\\cmTC_eec3b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eec3b.dir\\Debug\\\\" /Fd"cmTC_eec3b.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eec3b.dir\\Debug\\\\" /Fd"cmTC_eec3b.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\src.c"
+          src.c
+          
+        D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\cmTC_eec3b.vcxproj]
+        已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\cmTC_eec3b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\cmTC_eec3b.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pta8lw\\cmTC_eec3b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-uaegg6"
+      binary: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-uaegg6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/code/vtk9.1/lib/cmake/vtk-9.1/patches/99;D:/code/vtk9.1/lib/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-uaegg6'
+        
+        Run Build Command(s): "D:/Install_Road/VSInstall Road/IDE/MSBuild/15.0/Bin/MSBuild.exe" cmTC_194a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/10/3 18:49:45。
+        节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\cmTC_194a2.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_194a2.dir\\Debug\\”。
+          正在创建目录“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\Debug\\”。
+          正在创建目录“cmTC_194a2.dir\\Debug\\cmTC_194a2.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_194a2.dir\\Debug\\cmTC_194a2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_194a2.dir\\Debug\\\\" /Fd"cmTC_194a2.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_194a2.dir\\Debug\\\\" /Fd"cmTC_194a2.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\Debug\\cmTC_194a2.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-uaegg6/Debug/cmTC_194a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-uaegg6/Debug/cmTC_194a2.lib" /MACHINE:X64  /machine:x64 cmTC_194a2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\cmTC_194a2.vcxproj]
+        已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\cmTC_194a2.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\cmTC_194a2.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uaegg6\\cmTC_194a2.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "D:/code/vtk9.1/lib/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-2wbwsg"
+      binary: "D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-2wbwsg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/code/vtk9.1/lib/cmake/vtk-9.1/patches/99;D:/code/vtk9.1/lib/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-2wbwsg'
+        
+        Run Build Command(s): "D:/Install_Road/VSInstall Road/IDE/MSBuild/15.0/Bin/MSBuild.exe" cmTC_84cf9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/10/3 18:49:45。
+        节点 1 上的项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\cmTC_84cf9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_84cf9.dir\\Debug\\”。
+          正在创建目录“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\Debug\\”。
+          正在创建目录“cmTC_84cf9.dir\\Debug\\cmTC_84cf9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_84cf9.dir\\Debug\\cmTC_84cf9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84cf9.dir\\Debug\\\\" /Fd"cmTC_84cf9.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84cf9.dir\\Debug\\\\" /Fd"cmTC_84cf9.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          D:\\Install_Road\\VSInstall Road\\IDE\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\Debug\\cmTC_84cf9.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-2wbwsg/Debug/cmTC_84cf9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/CMakeScratch/TryCompile-2wbwsg/Debug/cmTC_84cf9.lib" /MACHINE:X64  /machine:x64 cmTC_84cf9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\cmTC_84cf9.vcxproj]
+        已完成生成项目“D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\cmTC_84cf9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\cmTC_84cf9.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [D:\\code\\Vtk-Examples\\ImageData\\ImageTransparency\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wbwsg\\cmTC_84cf9.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.42
+        
+      exitCode: 1
+...

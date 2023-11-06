@@ -1,0 +1,3 @@
+D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/ImageTransparency.dir
+D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/ALL_BUILD.dir
+D:/code/Vtk-Examples/ImageData/ImageTransparency/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\code\Vtk-Examples\ImageData\ImageTransparency\ImageTransparency.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\code\Vtk-Examples\ImageData\ImageTransparency\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4E5F27B3-AE0E-3D06-9379-1B4F995DCEAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
